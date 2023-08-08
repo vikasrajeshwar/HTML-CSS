@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My First Web Page</title>
+	<style>
+	header {
+		background-color: pink;
+		padding: 30px;
+		margin:2px;
+		text-align: center;
+		font-size: 35px;
+		color: white;
+	}
+	
+	nav {
+		float: right;
+		width: 30%;
+		height: 300px;
+		text-align: center;
+		font-size: 35px;
+		background: green;
+		padding: 20px;
+		margin:2px;
+	}
+	
+	
+	aside {
+		float: left;
+		width: 30%;
+		height: 300px;
+		text-align: center;
+		font-size: 35px;
+		background: purple;
+		padding: 20px;
+		margin:2px;
+	}
+	
+	.main-container{
+					display:flex;
+					justify-content:space-between;
+	}
+	
+	.row1{
+		width:100%;
+		display:flex;
+		
+	}
+	.demo1{
+		width:200px;
+		height: 150px;
+		text-align: center;
+		font-size: 35px;
+		background: blue;
+		padding: 20px;
+		margin:2px
+	}
+	
+	.demo2{
+		width:200px;
+		height:150px;
+		text-align:center;
+		font-size:35px;
+		background-color:yellow;
+		padding:20px;
+		margin:2px;
+	}
+	
+	.row2{
+		width:92%;
+		height: 100px;
+		text-align: center;
+		font-size: 35px;
+		background: red;
+		padding: 20px;
+		margin:2px
+	}
+	footer {
+		background-color: Brown;
+		padding: 10px;
+		margin:2px;
+		text-align: center;
+		color: white;	
+	}
+
+	</style>
+	</head>
+	<body>
+		<header>
+			<h4>header</<h4>
+		</header>
+		<main>
+		<section class="main-container">
+			<nav>
+				<h4>left Side bar</h4>
+			</nav>
+			
+			<div> 
+			<div class="row1">
+				<div class="demo1">blue</div>
+				<div class="demo2">yellow</div>
+			</div>
+			<div class="row2"> red</div>
+			</div>
+			
+			
+			<aside>
+				<h4>Rigth Side bar</h4>
+			</aside>
+		</section> 
+		</main>
+		<footer>
+			<p>footer<p>
+		</footer>
+	</body>
+
+</html>

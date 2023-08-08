@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Layout</title>
+		<style>
+			header{
+				background-color:pink;
+				padding:20px;
+				margin:2px;
+				text-align:center;
+				font-size:35px;
+				color:white;
+			}
+			
+			.main-container{
+						display:flex;
+						justify-content:space-between;
+			}
+			
+			.row1{
+				width:100%;
+				display:flex;
+			}
+			
+			.row2{
+				width:92%;
+				height: 100px;
+				text-align: center;
+				font-size: 35px;
+				background: red;
+				padding: 20px;
+				margin:2px
+			}
+	
+			.demo1{
+				width: 30%;
+				height: 300px;
+				text-align: center;
+				font-size: 35px;
+				background: purple;
+				padding: 20px;
+				margin:2px;
+			}
+			
+			.demo2{
+				width: 30%;
+				height: 300px;
+				text-align: center;
+				font-size: 35px;
+				background: green;
+				padding: 20px;
+				margin:2px;
+			}
+			
+			.demo3{
+				width:200px;
+				height:150px;
+				text-align:center;
+				font-size:35px;
+				background-color:blue;
+				padding:20px;
+				margin:2px;
+			}
+			
+			.demo4{
+				width:200px;
+				height:150px;
+				text-align:center;
+				font-size:35px;
+				background-color:yellow;
+				padding:20px;
+				margin:2px;
+			}
+			
+			footer{
+				background-color:brown;
+				padding:20px;
+				margin:2px;
+				text-align:center;
+				font-size:35px;
+				color:white;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h4>Header</h4>
+		</header>
+		<main>
+			<section class="main-container">
+				<div class="demo1">
+					<h4>Left Side Bar</h4>
+				</div>
+				<div>
+					<div class="row1">
+						<div class="demo3">
+							<h4>blue</h4>
+						</div>
+						<div class="demo4">
+							<h4>yellow</h4>
+						</div>
+					</div>
+					<div class="row2">
+							<h4>red</h4>
+					</div>
+				</div>
+				<div class="demo2">
+					<h4>right Side Bar</h4>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<h4>footer</h4>
+		</footer>
+	</body>
+</html>
